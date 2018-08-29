@@ -6,10 +6,11 @@ import AlbumsScreen from './Albums';
 import ModalScreen from './Modal';
 import LoginScreen from './Login';
 import SignupScreen from './Signup';
+import CameraScreen from '../cam/Camera';
 
 const ModalStack = createStackNavigator(
   {
-    Modal: ModalScreen
+    Modal: CameraScreen
   },
   {
     headerMode: 'none',
